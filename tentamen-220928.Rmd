@@ -1,0 +1,82 @@
+---
+title: "MT3003 tentamen"
+author: "[förnamn] [efternamn] ([tentamenskod])"
+date: '2022-09-28'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, error = TRUE, message = FALSE) # Ändra ej
+```
+
+## Försäkran och identifiering
+
+Jag, [förnamn] [efternamn] ([tentamenskod]), försäkrar att lösningarna bifogat i denna fil är mitt eget självständigt utförda arbete.
+
+```{r, echo = FALSE, out.width = "50%", fig.cap = "Bild på min identitetshandling och datorskärm"}
+knitr::include_graphics("[min_id_bild.jpg]")
+```
+
+## Uppgift 1
+
+Antal kommuner där Sverigedemokraterna fick fler röster är
+
+```{r}
+# Min kod
+```
+
+Min figur över riksdagsrösternas fördelning i Stockholms kommun ges av
+
+```{r}
+# Min kod
+```
+
+Min tabell över kommunerna med lägst valdeltagande ges av
+```{r}
+# Min kod
+```
+
+
+## Uppgift 2
+
+Min kod för att bestämma partiet med flest kandidater ges av
+
+```{r}
+# Min kod
+```
+
+Min figur över könsfördelningen hos partiernas kandidater ges av
+
+```{r}
+# Min kod
+```
+
+
+Min figur över åldersfördelningen hos partiernas kandidater ges av
+
+```{r}
+# Min kod
+```
+
+
+
+## Uppgift 3
+
+Min tabell över månaderna med högst ökning av KPI ges av
+
+```{r}
+# Min kod
+```
+
+Min figur över säsongsvariation i KPI ges av
+
+```{r}
+months <- c("Jan", "Feb", "Mar", "Apr", "Maj", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dec")
+# Min kod
+```
+
+Min figur över årliga förändringar i KPI ges av
+
+```{r}
+# Min kod
+```
